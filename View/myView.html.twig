@@ -1,0 +1,16 @@
+{% extends 'base.html.twig' %}
+
+{% block content %}
+
+<div class="row">
+    {% for product in products %}
+        <div class="card col-4" style="width: 18rem;">
+            <div class="card-body">
+                <h5 class="card-title">Produit {{ loop.index }} : {{ product }}</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+        </div>
+    {% endfor %}
+    </div>
+
+{% endblock %}

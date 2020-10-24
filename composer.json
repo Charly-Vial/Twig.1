@@ -1,0 +1,13 @@
+{
+    "name": "charl/twig.1",
+    "description": "Quete Twig",
+    "authors": [
+        {
+            "name": "Charly",
+            "email": "charly.vial04@gmail.fr"
+        }
+    ],
+    "require": {
+        "twig/twig": "^3.1"
+    }
+}
